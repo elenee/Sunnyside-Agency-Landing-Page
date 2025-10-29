@@ -9,10 +9,10 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img 
-      src="/Sunnyside-Agency-Landing-Page/images/logo.svg"
-      alt="Sunnyside logo"
-      className="navbar-logo" />
+      <img
+        src="/Sunnyside-Agency-Landing-Page/images/logo.svg"
+        alt="Sunnyside logo"
+        className="navbar-logo" />
 
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <a href="#about">About</a>

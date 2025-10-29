@@ -1,18 +1,34 @@
-# React + Vite
+# Sunnyside Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page built with **React** and **Vite**. This project is a solution to the [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Mobile-first design
+- Responsive layout using CSS Grid and Flexbox
+- Interactive navbar with mobile hamburger menu
+- Testimonial section with client cards
+- Image gallery
+- Fully deployed on GitHub Pages
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- CSS (custom properties, Flexbox, Grid)
+- Git & GitHub
+- GitHub Pages for deployment
 
-Note: This will impact Vite dev & build performances.
+## Live Demo
 
-## Expanding the ESLint configuration
+[View the live site here](https://elenee.github.io/Sunnyside-Agency-Landing-Page/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation (optional)
+
+To run the project locally:
+
+```bash
+git clone https://github.com/elenee/Sunnyside-Agency-Landing-Page.git
+cd Sunnyside-Agency-Landing-Page
+npm install
+npm run dev

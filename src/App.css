@@ -19,14 +19,16 @@
 }
 
 *,
-*::after, 
+*::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-img, picture, svg {
+img,
+picture,
+svg {
   max-width: 100%;
 }
 
@@ -67,8 +69,9 @@ ul {
   font-size: 1rem;
   font-family: var(--fs-body);
   padding: 0.7rem 1.5rem;
-  border-radius: 1.3rem;  /* keep shape consistent */
-  transition: all 0.3s ease; 
+  border-radius: 1.3rem;
+  /* keep shape consistent */
+  transition: all 0.3s ease;
 }
 
 .navbar-links a:hover {
@@ -115,13 +118,13 @@ ul {
   }
 
   .navbar-links a:hover {
-  color: var(--grey-950);
-  text-transform: uppercase;
-  font-weight: 600;
-  background-color: var(--yellow-500);
-  padding: 0.7rem 1.5rem;
-  border-radius: 1.3rem;
-}
+    color: var(--grey-950);
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--yellow-500);
+    padding: 0.7rem 1.5rem;
+    border-radius: 1.3rem;
+  }
 
 
   .hamburger {
@@ -230,19 +233,19 @@ ul {
 }
 
 .yellow {
-    border-bottom: 5px solid rgba(207, 207, 9, 1);
+  border-bottom: 5px solid rgba(207, 207, 9, 1);
 }
 
 .yellow:hover {
-  border-color: var(--yellow-500) 
+  border-color: var(--yellow-500)
 }
 
 .red {
-    border-bottom: 5px solid hsl(7, 99%, 70%, 0.5);
+  border-bottom: 5px solid hsl(7, 99%, 70%, 0.5);
 }
 
 .red:hover {
-  border-color: var(--red-400) 
+  border-color: var(--red-400)
 }
 
 .image-text {
@@ -262,7 +265,7 @@ ul {
   font-weight: 900;
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-} 
+}
 
 .overlay-text {
   display: flex;
@@ -274,11 +277,11 @@ ul {
 
 
 .graphic-design .overlay-text {
-    color: var(--green-800);
+  color: var(--green-800);
 }
 
 .photography .overlay-text {
-    color: var(--blue-800);
+  color: var(--blue-800);
 }
 
 .graphic-design {
@@ -300,10 +303,11 @@ ul {
   }
 
   .text .learn-more {
-  align-self: center;
-}
+    align-self: center;
+  }
 
-  .text, .image-text {
+  .text,
+  .image-text {
     text-align: center;
     justify-content: center;
     text-align: center;

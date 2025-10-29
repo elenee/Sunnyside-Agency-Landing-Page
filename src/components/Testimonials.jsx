@@ -2,26 +2,27 @@ import React from 'react'
 
 const Testimonial = () => {
 
-  const clients = [
-    {
-      img: "/images/image-emily.jpg",
-      text: "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
-      name: "Emily R.",
-      position: "Marketing Director",
-    },
-    {
-      img: "/images/image-thomas.jpg",
-      text: "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
-      name: "Thomas S.",
-      position: "Chief Operating Officer",
-    },
-    {
-      img: "/images/image-jennie.jpg",
-      text: "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
-      name: "Jennie F.",
-      position: "Business Owner",
-    },
-  ]
+const clients = [
+  {
+    img: "/Sunnyside-Agency-Landing-Page/images/image-emily.jpg",
+    text: "...",
+    name: "Emily R.",
+    position: "Marketing Director",
+  },
+  {
+    img: "/Sunnyside-Agency-Landing-Page/images/image-thomas.jpg",
+    text: "...",
+    name: "Thomas S.",
+    position: "Chief Operating Officer",
+  },
+  {
+    img: "/Sunnyside-Agency-Landing-Page/images/image-jennie.jpg",
+    text: "...",
+    name: "Jennie F.",
+    position: "Business Owner",
+  },
+];
+
 
   return (
     <section className="testimonials">

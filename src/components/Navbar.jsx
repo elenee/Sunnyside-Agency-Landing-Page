@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
-        <img src="/images/icon-hamburger.svg" alt="Menu" />
+        <img src="/Sunnyside-Agency-Landing-Page/images/icon-hamburger.svg" alt="Menu" />
       </div>
     </nav>
   );

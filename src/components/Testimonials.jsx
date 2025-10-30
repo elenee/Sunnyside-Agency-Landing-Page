@@ -6,7 +6,8 @@ const Testimonial = () => {
     {
       img: "/Sunnyside-Agency-Landing-Page/images/image-emily.jpg",
       text: "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
-      name: "Emily R.", position: "Marketing Director",
+      name: "Emily R.",
+      position: "Marketing Director",
     },
     {
       img: "/Sunnyside-Agency-Landing-Page/images/image-thomas.jpg",
